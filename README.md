@@ -1,6 +1,6 @@
-# Monokai theme
+# Monojai
 
-A monokai syntax theme for Atom.
+A monokai syntax theme for Atom. Based on the [kevinsawicki](https://github.com/kevinsawicki) theme. It just have a space between the gutter and the lines, and the tab lines are dotted insted linear.
 
 Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
 theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
