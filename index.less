@@ -9,7 +9,11 @@ atom-text-editor, :host {
   }
 
   .indent-guide {
-    color: @syntax-indent-guide-color;
+      color: @syntax-indent-guide-color;
+      border-style: none none none dotted;
+      border-width: 1px;
+      border-radius: 1px;
+      box-shadow: none;
   }
 
   .wrap-guide {
@@ -206,16 +210,6 @@ atom-text-editor, :host {
   color: #F92672;
 }
 
-atom-text-editor::shadow{
-
-      .scroll-view {
-            margin-left: 10px;
-      }
-
-      .indent-guide{
-            border-style: none none none dotted;
-            border-width: 1px;
-            border-radius: 1px;
-            box-shadow: none;
-      }
+.scroll-view {
+      margin-left: 10px;
 }
